@@ -331,8 +331,11 @@ export default function PurelineSite() {
             <div>
               <h5 className="font-black mb-6 text-sm uppercase text-blue-500">Navigation</h5>
               <ul className="space-y-4 text-gray-400 text-sm font-bold">
-                <li><button onClick={() => scrollToSection('services')} className="hover:text-white">Services</button></li>
-                <li><button onClick={() => scrollToSection('methode')} className="hover:text-white">Méthode</button></li>
+              <li><button onClick={() => scrollToSection('services')} className="hover:text-white">Services</button></li>
+              <li><button onClick={() => scrollToSection('entreprises')} className="hover:text-white">Entreprises</button></li>
+              <li><button onClick={() => scrollToSection('particuliers')} className="hover:text-white">Particuliers</button></li>
+              <li><button onClick={() => scrollToSection('methode')} className="hover:text-white">Méthodes</button></li>
+              <li><button onClick={() => scrollToSection('avis')} className="hover:text-white">Avis</button></li>
               </ul>
             </div>
             <div>

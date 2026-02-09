@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Garde tes polices et tes réglages de base en dessous */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Manrope:wght@600;700;800&display=swap');
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #6B7280;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Manrope', sans-serif;
+  color: #111827;
+}

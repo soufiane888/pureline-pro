@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
-  Sparkles, Building2, Home, CheckCircle2, Calendar, 
-  ChevronRight, Phone, Mail, MapPin, Menu, X, 
+  Sparkles, Building2, Home, CheckCircle2, 
+  Phone, MapPin, Menu, X, 
   Star, ArrowRight, ShieldCheck, Zap, Quote
 } from 'lucide-react';
 
